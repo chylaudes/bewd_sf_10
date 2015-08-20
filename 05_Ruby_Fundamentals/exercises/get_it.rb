@@ -21,4 +21,4 @@ def connect_to_api(url)
 end
 
 reddit_url = "http://www.reddit.com/.json"
-connect_to_api(reddit_url)
+response = connect_to_api(reddit_url)
